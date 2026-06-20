@@ -6,7 +6,7 @@ SET "WRAPPER_JAR=%BASE_DIR%\.mvn\wrapper\maven-wrapper.jar"
 
 IF NOT EXIST "%WRAPPER_JAR%" (
   ECHO Maven Wrapper JAR is missing: %WRAPPER_JAR%
-  ECHO Run build.bat from the project root or restore the wrapper file.
+  ECHO Restore .mvn\wrapper\maven-wrapper.jar from the Git repository.
   EXIT /B 1
 )
 
