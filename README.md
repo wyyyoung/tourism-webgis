@@ -44,7 +44,7 @@ OSRM 公共驾车服务
 ```text
 tourism-webgis-v1.0.0.jar
 docker-compose.yml
-运行说明-v1.0.0.md
+RUNNING-v1.0.0.md
 ```
 
 启动 Docker Desktop，在该目录打开 PowerShell：
