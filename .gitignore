@@ -1,0 +1,13 @@
+tourism-webgis-frontend/node_modules/
+tourism-webgis-frontend/dist/
+tourism-webgis-frontend/public/cesium/
+tourism-webgis-backend/target/
+tourism-webgis-backend/src/main/resources/static/
+runtime/
+05.地理场景可视化与交互(Cesium)/
+*.log
+*.pid
+.env
+.idea/
+.vscode/
+.DS_Store

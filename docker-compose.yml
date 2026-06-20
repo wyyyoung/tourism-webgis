@@ -1,0 +1,22 @@
+services:
+  postgis:
+    image: postgis/postgis:17-3.5
+    container_name: xian-tourism-postgis
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: tourism_webgis
+      POSTGRES_USER: webgis
+      POSTGRES_PASSWORD: webgis123
+    ports:
+      - "5433:5432"
+    volumes:
+      - tourism_postgis_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U webgis -d tourism_webgis"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  tourism_postgis_data:
+
