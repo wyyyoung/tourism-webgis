@@ -2,7 +2,7 @@
 
 [在线只读演示](https://wyyyoung.github.io/tourism-webgis/) · [下载完整运行版](https://github.com/wyyyoung/tourism-webgis/releases/latest)
 
-长安迹是一个面向 WebGIS 课程设计的西安旅游资源管理与空间分析系统。项目以 CesiumJS 构建三维地图，使用 Vue 3 实现交互界面，Spring Boot 提供 REST API，PostgreSQL/PostGIS 负责景点数据存储、空间查询和地理计算。
+长安迹是一个西安旅游资源管理与空间分析系统。项目以 CesiumJS 构建三维地图，使用 Vue 3 实现交互界面，Spring Boot 提供 REST API，PostgreSQL/PostGIS 负责景点数据存储、空间查询和地理计算。
 
 GitHub Pages 提供无需安装的只读演示，可浏览地图、筛选景点、查看详情和执行相机飞行。Release 中的完整运行版支持 PostGIS 空间分析、景点管理和真实驾车路线规划。
 
