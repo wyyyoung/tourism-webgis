@@ -555,7 +555,7 @@ function showToast(message) {
     </Transition>
     <div v-if="pickingCoordinate" class="map-mode-hint">坐标拾取中 · 单击地图设置位置</div>
     <div v-if="demoMode" class="demo-mode-badge glass-panel">
-      GitHub Pages 只读演示 · 完整空间分析请运行本地版
+      GitHub Pages 只读演示 · 其他功能需本地运行
     </div>
 
     <div class="coordinate-bar glass-panel">
